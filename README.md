@@ -28,7 +28,7 @@ The power spectrum of red nosie is
 
 ![equation](https://latex.codecogs.com/svg.image?P_{k}&space;=&space;\frac{1-&space;\alpha^{2}}{1&plus;\alpha^{2}-2\alpha&space;\cos(2&space;\pi&space;k/N)})
 
-where ![equation](https://latex.codecogs.com/svg.image?N) is the number of datapoints and ![equation](https://latex.codecogs.com/svg.image?k&space;=0,&space;...,&space;N/2) is the frequancy index.
+where ![equation](https://latex.codecogs.com/svg.image?N) is the number of datapoints and ![equation](https://latex.codecogs.com/svg.image?k) is the frequancy index.
 The mean background spectrum significant at ![equation](https://latex.codecogs.com/svg.image?5%) is
 
 ![equation](https://latex.codecogs.com/svg.image?\frac{1}{2}P_{k}\chi_{2}^{2})
