@@ -43,6 +43,6 @@ where ![equation](https://latex.codecogs.com/svg.image?\chi_{2}^{2}) is a chi-sq
 
 
 
-
+## References
 
 [1] C. Torrence, G.P. Compo, A practical guide to wavelet analysis, Bulletin of the American Meteorological Society 79 (1998) 605–618.
