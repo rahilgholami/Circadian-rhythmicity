@@ -33,6 +33,7 @@ The mean background spectrum significant at ![equation](https://latex.codecogs.c
 
 ![equation](https://latex.codecogs.com/svg.image?\frac{1}{2}P_{k}\chi_{2}^{2})
 
+where ![equation](https://latex.codecogs.com/svg.image?\chi_{2}^{2}) is a chi-square distribution with 2 degrees of freedom.
 
 
 
