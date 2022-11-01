@@ -22,6 +22,7 @@ A simple model for red noise is the univariate lag-1 autoregressive process:
 
 ![equation](https://latex.codecogs.com/svg.image?x_{n}&space;=&space;\alpha&space;x_{n-1}&space;&plus;&space;z_{n})
 
+where ![equation](https://latex.codecogs.com/svg.image?\alpha) is the the assumed lag-1 autocorrelation.
 
 
 
