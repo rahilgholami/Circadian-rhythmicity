@@ -20,7 +20,7 @@ is either white noise or red noise.
 
 A simple model for red noise is the univariate lag-1 autoregressive process:
 
-https://latex.codecogs.com/svg.image?x_{n}&space;=&space;\alpha&space;x_{n-1}&space;&plus;&space;z_{n}
+![equation](https://latex.codecogs.com/svg.image?x_{n}&space;=&space;\alpha&space;x_{n-1}&space;&plus;&space;z_{n})
 
 
 
