@@ -24,7 +24,8 @@ A simple model for red noise is the univariate lag-1 autoregressive process:
 
 where ![equation](https://latex.codecogs.com/svg.image?\alpha) is the the assumed lag-1 autocorrelation.
 
-The is
+The power spectrum of red nosie is
+
 ![equation](https://latex.codecogs.com/svg.image?P_{k}&space;=&space;\frac{1-&space;\alpha^{2}}{1&plus;\alpha^{2}-2\alpha&space;\cos(2&space;\pi&space;k/N)})
 
 The mean background spectrum significant at ![equation](https://latex.codecogs.com/svg.image?5%) is
