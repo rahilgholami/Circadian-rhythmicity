@@ -1,4 +1,4 @@
-# clock
+# Code Description
 
 ## 1. Stationarity
 A signal is said to be stationary if its statistical properties such as mean, variance, frequency, and etc are not changing with respect to time.
