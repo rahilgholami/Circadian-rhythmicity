@@ -58,11 +58,9 @@ if __name__ == '__main__':
   N = len(yb)
   time = xb 
   scales = np.arange(1000, 20000, 1000)
-
   time, period, power = wavelet(ax, time, yb, scales, xlabel=xlabel, ylabel=ylabel, title=title)
 
 normalization_factor = np.var(ya)
-
 mean_spectrum = []
 window_size = 1500
 power_array = np.array(power)
