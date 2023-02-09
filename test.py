@@ -61,4 +61,20 @@ if __name__ == '__main__':
 
   time, period, power = wavelet(ax, time, yb, scales, xlabel=xlabel, ylabel=ylabel, title=title)
 
+normalization_factor = np.var(ya)
 
+mean_spectrum = []
+window_size = 1500
+power_array = np.array(power)
+
+for i in range(power_array.shape[0]):
+    df = pd.DataFrame(data=power_array[i,:]).rolling(window=window_size)
+    mean_spectrum.extend((df.mean().dropna()).mean())
+
+  fig, ax = plt.subplots(figsize=(10, 5))
+  plt.plot(period, mean_spectrum/normalization_factor, '.-')
+  ax.invert_xaxis()
+  plt.xlabel("Period(h)", fontsize=18)
+  plt.ylabel("Normalized Power Spectrum", fontsize=18)
+  plt.show()
+  plt.show()
