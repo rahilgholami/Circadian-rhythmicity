@@ -1,6 +1,8 @@
 # Code Description
 
-The [main.ipynb](https://github.com/rahilgholami/Circadian-rhythmicity/blob/main/main.ipynb) consists of two major parts, first is the data preprocessing (Removing drift from data (stationarity) and data smoothing) and the second part is computing the wavelet power spectrum of the actual data and establishing a background power spectrum at significance level 5% to compare the actual spectrum against.
+The [main.ipynb] (https://github.com/rahilgholami/Circadian-rhythmicity/blob/main/main.ipynb) notebook has two major parts, each serving a specific purpose in the analysis of the data. The first part focuses on data preprocessing, which involves two essential steps: removing drift from the data to achieve stationarity and applying data smoothing techniques.
+
+In the second part of the notebook, we dig into the computation of the wavelet power spectrum for the actual data. To interpret the wavelet spectrum, it is essential to establish a background power spectrum. This background spectrum acts as a reference to gauge the statistical significance of the actual spectrum.
 
 ## 1. Data preprocessing
 
