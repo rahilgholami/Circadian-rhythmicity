@@ -1,4 +1,3 @@
-## Code Description
 
 The [main.ipynb](https://github.com/rahilgholami/Circadian-rhythmicity/blob/main/main.ipynb) notebook has two major parts, each serving a specific purpose in the analysis of the data. The first part focuses on data preprocessing, which involves two essential steps: removing drift from the data to achieve stationarity and applying data smoothing techniques.
 
