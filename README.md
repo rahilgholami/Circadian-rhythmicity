@@ -17,8 +17,8 @@ Moving average is commonly used with time series data to smooth out fluctuations
 The wavelet transform is a powerful mathematical tool used for analyzing time series data, especially when dealing with features such as frequency which vary over time. In contrast to the Fourier transform, the wavelet transform offers superior resolution in both time and frequency domains, enabling the extraction of time-frequency information. By applying the wavelet transform, we can detect the frequencies present in the signal and identify when these frequencies occur. This capability makes the wavelet transform an invaluable tool for understanding complex and dynamic time series data.
 
 ### 2.1 Wavelet power spectrum
-Wavelet power spectrum can be computed from the wavelet transform. Following [1], to determine significance levels for the wavelet spectrum, a background spectrum is needed to compare the actual spectrum against. An appropriate background spectrum
-is either white noise or red noise. 
+The wavelet power spectrum can be derived from the wavelet transform. As outlined in reference [1], assessing the significance of the wavelet spectrum involves comparing it to a background spectrum.  The actual spectrumis evaluated against the background spectrum.
+An appropriate background spectrum is either white noise or red noise. 
 
 A simple model for red noise is the univariate lag-1 autoregressive process:
 
