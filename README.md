@@ -1,6 +1,6 @@
 # Code Description
 
-The code consists of two major parts, first is the data preprocessing (Removing drift from data (stationarity) and data smoothing) and the second part is computing the wavelet power spectrum of the actual data and establishing a background power spectrum at significance level 5% to compare the actual spectrum against.
+The [main.ipynb](https://github.com/rahilgholami/Circadian-rhythmicity/blob/main/main.ipynb) consists of two major parts, first is the data preprocessing (Removing drift from data (stationarity) and data smoothing) and the second part is computing the wavelet power spectrum of the actual data and establishing a background power spectrum at significance level 5% to compare the actual spectrum against.
 
 ## 1. Data preprocessing
 
