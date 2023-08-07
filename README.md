@@ -2,7 +2,7 @@
 
 The [main.ipynb](https://github.com/rahilgholami/Circadian-rhythmicity/blob/main/main.ipynb) notebook has two major parts, each serving a specific purpose in the analysis of the data. The first part focuses on data preprocessing, which involves two essential steps: removing drift from the data to achieve stationarity and applying data smoothing techniques.
 
-In the second part of the notebook, we dig into the computation of the wavelet power spectrum for the actual data. To interpret the wavelet spectrum, it is essential to establish a background power spectrum. This background spectrum acts as a reference to gauge the statistical significance of the actual spectrum.
+In the second part of the notebook, we dig into the computation of the wavelet power spectrum for the actual data. To interpret the wavelet spectrum, it is essential to establish a background power spectrum. This background spectrum acts as a reference to assess the statistical significance of the actual spectrum.
 
 ## 1. Data preprocessing
 
@@ -19,7 +19,7 @@ Moving average is commonly used with time series data to smooth out fluctuations
 The wavelet transform is a powerful mathematical tool used for analyzing time series data, especially when dealing with features such as frequency which vary over time. In contrast to the Fourier transform, the wavelet transform offers superior resolution in both time and frequency domains, enabling the extraction of time-frequency information. By applying the wavelet transform, we can detect the frequencies present in the signal and identify when these frequencies occur. This capability makes the wavelet transform an invaluable tool for understanding complex and dynamic time series data.
 
 ### 2.1 Wavelet power spectrum
-The wavelet power spectrum can be derived from the wavelet transform. As outlined in reference [1], assessing the significance of the wavelet spectrum involves estabilishing a background spectrum and comparing the data spectrum against the  background spectrum.
+The wavelet power spectrum can be derived from the wavelet transform. As outlined in reference [1], assessing the significance of the wavelet spectrum involves estabilishing a background spectrum and comparing the data spectrum against the background spectrum.
 An appropriate background spectrum is either white noise or red noise. 
 
 A simple model for red noise is the univariate lag-1 autoregressive process:
