@@ -14,7 +14,7 @@ Moving average is commonly used with time series data to smooth out fluctuations
 
 
 ## 2. Wavelet transform
-The wavelet transform is a powerful mathematical tool used for analyzing time series data, especially when dealing with features that vary in frequency over time. In contrast to the Fourier transform, the wavelet transform offers superior resolution in both time and frequency domains, enabling the extraction of precise time-frequency information. By applying the wavelet transform, we can detect the specific frequencies present in the signal and precisely identify when these frequencies occur. This capability makes the wavelet transform an invaluable tool for understanding complex and dynamic time series data.
+The wavelet transform is a powerful mathematical tool used for analyzing time series data, especially when dealing with features that vary in frequency over time. In contrast to the Fourier transform, the wavelet transform offers superior resolution in both time and frequency domains, enabling the extraction of time-frequency information. By applying the wavelet transform, we can detect the frequencies present in the signal and identify when these frequencies occur. This capability makes the wavelet transform an invaluable tool for understanding complex and dynamic time series data.
 
 ### 2.1 Wavelet power spectrum
 Wavelet power spectrum can be computed from the wavelet transform. Following [1], to determine significance levels for the wavelet spectrum, a background spectrum is needed to compare the actual spectrum against. An appropriate background spectrum
