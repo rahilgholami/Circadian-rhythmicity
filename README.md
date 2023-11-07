@@ -49,3 +49,16 @@ where ![equation](https://latex.codecogs.com/svg.image?\chi_{2}^{2}) is a chi-sq
 ## References
 
 [1] C. Torrence, G.P. Compo, A practical guide to wavelet analysis, Bulletin of the American Meteorological Society 79 (1998) 605–618.
+
+
+## Citation
+ ` ` `
+@article{berwanger2023self,
+  title={Self-sustained rhythmic behavior of Synechocystis PCC 6803 under continuous light conditions in the absence of light-dark entrainment},
+  author={Berwanger, Lutz C and Thumm, Nikolaus and Gholamipoor, Rahil and Wiegard, Anika and Schlebusch, Jeannine and Kollmann, Markus and Axmann, Ilka M},
+  journal={bioRxiv},
+  pages={2023--09},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory}
+}
+ ` ` `
