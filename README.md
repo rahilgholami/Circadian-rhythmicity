@@ -52,7 +52,7 @@ where ![equation](https://latex.codecogs.com/svg.image?\chi_{2}^{2}) is a chi-sq
 
 
 ## Citation
- ` ` `
+```
 @article{berwanger2023self,
   title={Self-sustained rhythmic behavior of Synechocystis PCC 6803 under continuous light conditions in the absence of light-dark entrainment},
   author={Berwanger, Lutz C and Thumm, Nikolaus and Gholamipoor, Rahil and Wiegard, Anika and Schlebusch, Jeannine and Kollmann, Markus and Axmann, Ilka M},
@@ -61,4 +61,4 @@ where ![equation](https://latex.codecogs.com/svg.image?\chi_{2}^{2}) is a chi-sq
   year={2023},
   publisher={Cold Spring Harbor Laboratory}
 }
- ` ` `
+```
